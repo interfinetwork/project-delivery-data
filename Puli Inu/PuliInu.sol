@@ -829,9 +829,9 @@ contract PULIINU is Context, IERC20, Ownable {
     uint256 private _rTotal;
     uint256 private _tFeeTotal;
 
-    string private _name = "PULI INU";
-    string private _symbol = "PULI";
-    uint8 private _decimals = 9;
+    string private constant _name = "PULI INU";
+    string private constant _symbol = "PULI";
+    uint8 private constant _decimals = 9;
 
     bool public isTradingEnabled;
     uint256 public antiBotBlocks;
